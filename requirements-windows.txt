@@ -1,7 +1,7 @@
 build
 --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu121
 # torch is CPU-only on Windows, so need to specify a torch version with GPU support
-torch==2.1.0.dev20230828+cu121
+torch==2.8.0
 torchvision==0.16.0.dev20230828
 torchdata==0.7.0.dev20230828
 torchtext==0.16.0.dev20230828
